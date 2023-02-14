@@ -1,21 +1,26 @@
-*{
+* {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 10px;
 }
-.logo-mighty{
+
+.logo-mighty {
     width: 200px;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
 
 
-.img-1, .img-2, .img-3{
+.img-1,
+.img-2,
+.img-3 {
     width: 300px;
 }
 
-header{
+header {
     display: flex;
-    flex-direction: row; /*por defecto es row*/
+    flex-direction: row;
+    /*por defecto es row*/
     align-items: center;
 }
