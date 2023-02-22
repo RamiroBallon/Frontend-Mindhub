@@ -1,0 +1,261 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 0.409); */
+}
+
+.index{
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+body{
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+
+section h1{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.798);
+    font-size: 40px;
+    padding: 10px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav a{
+    margin-left: 15px;
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover{
+color:orange;
+font-size: 100%; 
+}
+
+.logo-mighty{
+    position: relative;
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+.img-banner{
+    width: 100%;
+    position:relative;
+    height: 400px;
+    object-fit: cover;
+    filter:brightness(60%);
+    margin: 0%;
+}
+
+.banner{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.upcoming-events{
+    background-color: blue;
+    text-align: center;
+}
+
+h3, p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+main article{
+    padding-top: 20px;
+}
+
+/* main, header{
+    background-color: rgba(0, 0, 0, 0.409);
+} */
+
+.tabla-horarios{
+    font-size: 30px;
+    color: white;
+}
+
+.tabla-horarios th{
+    font-size: 40px;
+}
+
+.tabla-horarios td{
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 10px 15px 10px 15px;
+}
+
+/* .tabla-horarios{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.tabla-horarios{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+mark{
+    color: aquamarine;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.section-game-information{
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+.p1{
+    background-color:black ;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    margin: 5px 20px 5px 20px;
+    text-align: left;
+}
+
+.rules{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulo-rules{
+    text-align: center;
+    color: black;
+}
+.titulo-rules h3{
+    color: black;
+}
+
+.t1, .t2, .t3{
+    margin-top: 40px;
+}
+
+.t1 h2 {
+    padding-bottom: 14px;
+}
+.t1 p{
+    text-indent: 20px;
+    margin: 0;
+    color: black;
+}
+
+.t2 h2 {
+    padding-bottom: 14px;
+}
+.t2 p{
+    text-indent: 20px;
+    margin: 0;
+}
+
+
+
+.t3 h2 {
+    padding-bottom: 20px;
+}
+.t3 p{
+    text-indent: 20px; /*sangria de primera fila*/
+    margin: 0;
+}
+
+.t3 ul li{
+    padding-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.t3 p{
+    color: black;
+}
+
+.rules{
+    background-color: white;
+    color: black;
+    padding: 50px 20px 50px 20px;
+}
+
+.lista-dentro-de-lista{
+    list-style:lower-alpha;
+}
+
+.t2 mark {
+    background-color: white;
+    color: black;
+}
+
+.li-1{
+    padding-top: 15px;
+    margin-left: 19px;
+}
+
+
+/*FORMULARIO DE REGISTRO*/
+
+.formulario-de-registro h2, h3, p{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario-de-registro{
+    width: 80%;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    background-color: white;
+}
+
+.formulario-de-registro form .titulo{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.formulario-de-registro form .subtitulo{
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.formulario-de-registro form .subtitulo-1{
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.boton-enviar-form-registro{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.permission-parrafo{
+    text-align: justify;
+}
+
+
+
